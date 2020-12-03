@@ -6,6 +6,6 @@ metadata:
 spec:
   channel: "4.6"
   installPlanApproval: Automatic
-  name: codeready-operator
+  name: crwoperator
   source: redhat-operators
   sourceNamespace: openshift-marketplace
