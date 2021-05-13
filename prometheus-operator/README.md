@@ -2,7 +2,7 @@
 
 This installs the prometheus operator along with an instance of prometheus for application monitoring. The base is split into folders, one for the operator and another for the actualy prometheus instance. If you haven't installed prometheus before you need to install the operator first so the CRDs are added before deploying the instance.
 
-These bases cannot be deployed directly into a cluster, a a minimum you will need an overlay that creates a Namespace and an OperatorGroup, see the example overlay. Note only one OperatorGroup per namespace is permitted by OpenShift.
+These bases cannot be deployed directly into a cluster, at a minimum you will need an overlay that creates a Namespace and an OperatorGroup, see the example overlay. Note only one OperatorGroup per namespace is permitted by OpenShift.
 
 ## Overlays
 
